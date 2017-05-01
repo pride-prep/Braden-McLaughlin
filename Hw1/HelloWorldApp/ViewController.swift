@@ -13,11 +13,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var Words: UILabel!
     @IBOutlet var Background: UIView!
 
+    @IBOutlet weak var Image1: UIImageView!
     @IBOutlet weak var Answer_Button: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        Image1.isHidden = true;
     }
 
     override func didReceiveMemoryWarning() {
@@ -38,5 +40,13 @@ class ViewController: UIViewController {
     Background.backgroundColor = UIColor.green
     }
     
+    @IBAction func Secret_Button(_ sender: Any) {
+    
+    
+    }
+    
+    @IBAction func Trenchy(_ sender: Any) {
+    Image1.isHidden = false
+    }
         
     }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F2F64BE1EB7C66100CB55AE /* Trench.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F2F64BD1EB7C66100CB55AE /* Trench.jpeg */; };
 		3F366DF71EAE907600524821 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F366DF61EAE907600524821 /* AppDelegate.swift */; };
 		3F366DF91EAE907600524821 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F366DF81EAE907600524821 /* ViewController.swift */; };
 		3F366DFC1EAE907600524821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F366DFA1EAE907600524821 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F2F64BD1EB7C66100CB55AE /* Trench.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Trench.jpeg; path = ../../Trench.jpeg; sourceTree = "<group>"; };
 		3F366DF31EAE907600524821 /* HelloWorldApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorldApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F366DF61EAE907600524821 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F366DF81EAE907600524821 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				3F366DF61EAE907600524821 /* AppDelegate.swift */,
 				3F366DF81EAE907600524821 /* ViewController.swift */,
 				3F366DFA1EAE907600524821 /* Main.storyboard */,
+				3F2F64BD1EB7C66100CB55AE /* Trench.jpeg */,
 				3F366DFD1EAE907600524821 /* Assets.xcassets */,
 				3F366DFF1EAE907600524821 /* LaunchScreen.storyboard */,
 				3F366E021EAE907600524821 /* Info.plist */,
@@ -126,6 +129,7 @@
 				3F366E011EAE907600524821 /* LaunchScreen.storyboard in Resources */,
 				3F366DFE1EAE907600524821 /* Assets.xcassets in Resources */,
 				3F366DFC1EAE907600524821 /* Main.storyboard in Resources */,
+				3F2F64BE1EB7C66100CB55AE /* Trench.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
