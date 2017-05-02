@@ -41,12 +41,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func Secret_Button(_ sender: Any) {
-    
-    
+    Image1.isHidden = false
+
     }
     
     @IBAction func Trenchy(_ sender: Any) {
-    Image1.isHidden = false
     }
         
     }
