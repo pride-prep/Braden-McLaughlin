@@ -10,24 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func Answerbox(_ sender: Any) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    }
+    
+var patient1 = Patient(name:"Braden", id:142840922, status:"Pre Operation" ) //Making different patients and their information.
+var patient2 = Patient(name:"Bob", id:142841522, status: "In recovery")
+var patient3 = Patient(name:"Greg", id:121432432, status: "In Operation")
+var patients: [Patient] = [patient1, patient2, patient3]
+    
+    
+    
 
-    override func didReceiveMemoryWarning() {
+    func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-class Patient { //This is creating a class with different "characteristics".
-    var name: String //Creating the patients name as a variable to use later.
-    var ID: Int  //Creating the patients ID to access later.
-    var status: String //Creating a status variable to use later.
-    
-    init(name: String, id: Int, status: String) {  //Initializng all the variables.
-        self.name = name
-        self.ID = id
-        self.status = status
-}
-    }
         }
+    }
+}
