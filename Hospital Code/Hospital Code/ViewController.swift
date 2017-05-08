@@ -10,23 +10,30 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBAction func Answerbox(_ sender: Any) {
-    }
+    @IBAction func SubmitButton(_ sender: Any) {
+        var input: String = AnswerBox.text!    }
+        var ID: Int = 0;
+    @IBOutlet weak var AnswerText: UILabel!
+    @IBOutlet weak var AnswerBox: UITextField!
+    
+    var patients = [Patient]();
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    
-var patient1 = Patient(name:"Braden", id:142840922, status:"Pre Operation" ) //Making different patients and their information.
-var patient2 = Patient(name:"Bob", id:142841522, status: "In recovery")
-var patient3 = Patient(name:"Greg", id:121432432, status: "In Operation")
-var patients: [Patient] = [patient1, patient2, patient3]
-    
-    
+        let patient1 = Patient(name:"Braden", id:142840922, status:"Pre Operation" ) //Making different patients and their information.
+        let patient2 = Patient(name:"Bob", id:142841522, status: "In recovery")
+        let patient3 = Patient(name:"Greg", id:121432432, status: "In Operation")
+        patients.append(patient1);
+        patients.append(patient2);
+        patients.append(patient3);
+    }
     
 
-    func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-        }
+    
     }
+    
 }
