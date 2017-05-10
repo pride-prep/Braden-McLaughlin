@@ -5,13 +5,11 @@
 //  Created by Student on 5/2/17.
 //  Copyright © 2017 Student. All rights reserved.
 //
-
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController  {
 
-    @IBAction func SubmitButton(_ sender: Any) {
-        var input: String = AnswerBox.text!    }
+
         var ID: Int = 0;
     @IBOutlet weak var AnswerText: UILabel!
     @IBOutlet weak var AnswerBox: UITextField!
@@ -29,6 +27,10 @@ class ViewController: UIViewController {
         patients.append(patient3);
     }
     
+    @IBAction func SubmitButton(_ sender: Any) {
+    
+        
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
