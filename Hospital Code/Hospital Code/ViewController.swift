@@ -13,6 +13,7 @@ class ViewController: UIViewController  {
         var ID: Int = 0;
     @IBOutlet weak var AnswerText: UILabel!
     @IBOutlet weak var AnswerBox: UITextField!
+    @IBOutlet weak var StatusBox: UILabel!
     
     var patients = [Patient]();
 
@@ -28,14 +29,22 @@ class ViewController: UIViewController  {
     }
     
     @IBAction func SubmitButton(_ sender: Any) {
-    
-        
-    }
-
+        var loop = 1
+        while loop == 1 {
+        var ID = AnswerBox.text;
+            var found = false;
+            for patient in patients {
+                if patient.ID == Int(ID!)! {
+        StatusBox.text = patient.status }
+}
+}
+}
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     
-    }
+        }
     
+    
+
 }
