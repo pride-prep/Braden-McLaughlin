@@ -10,10 +10,10 @@ import Foundation
 
 class Patient { //This is creating a class with different "characteristics".
     var name: String //Creating the patients name as a variable to use later.
-    var ID: Int  //Creating the patients ID to access later.
+    var ID: String  //Creating the patients ID to access later.
     var status: String //Creating a status variable to use later.
     
-    init(name: String, id: Int, status: String) {  //Initializng all the variables.
+    init(name: String, id: String, status: String) {  //Initializng all the variables.
         self.name = name
         self.ID = id
         self.status = status

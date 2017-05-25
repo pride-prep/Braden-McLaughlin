@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3F6959F51EBBBBAF00727EE0 /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6959F41EBBBBAF00727EE0 /* Class.swift */; };
-		3F6959F71EC3A7BF00727EE0 /* Box.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6959F61EC3A7BF00727EE0 /* Box.png */; };
 		3FCC4ECB1EB91DC5000AEC22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCC4ECA1EB91DC5000AEC22 /* AppDelegate.swift */; };
 		3FCC4ECD1EB91DC5000AEC22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCC4ECC1EB91DC5000AEC22 /* ViewController.swift */; };
 		3FCC4ED01EB91DC5000AEC22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCC4ECE1EB91DC5000AEC22 /* Main.storyboard */; };
@@ -18,7 +17,6 @@
 
 /* Begin PBXFileReference section */
 		3F6959F41EBBBBAF00727EE0 /* Class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
-		3F6959F61EC3A7BF00727EE0 /* Box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Box.png; path = ../../Box.png; sourceTree = "<group>"; };
 		3FCC4EC71EB91DC5000AEC22 /* Hospital Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hospital Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCC4ECA1EB91DC5000AEC22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FCC4ECC1EB91DC5000AEC22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +59,6 @@
 				3FCC4ECA1EB91DC5000AEC22 /* AppDelegate.swift */,
 				3FCC4ECC1EB91DC5000AEC22 /* ViewController.swift */,
 				3FCC4ECE1EB91DC5000AEC22 /* Main.storyboard */,
-				3F6959F61EC3A7BF00727EE0 /* Box.png */,
 				3F6959F41EBBBBAF00727EE0 /* Class.swift */,
 				3FCC4ED11EB91DC5000AEC22 /* Assets.xcassets */,
 				3FCC4ED31EB91DC5000AEC22 /* LaunchScreen.storyboard */,
@@ -132,7 +129,6 @@
 				3FCC4ED51EB91DC5000AEC22 /* LaunchScreen.storyboard in Resources */,
 				3FCC4ED21EB91DC5000AEC22 /* Assets.xcassets in Resources */,
 				3FCC4ED01EB91DC5000AEC22 /* Main.storyboard in Resources */,
-				3F6959F71EC3A7BF00727EE0 /* Box.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
