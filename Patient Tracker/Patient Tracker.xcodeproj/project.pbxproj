@@ -12,6 +12,8 @@
 		3F67EDA91EDE089900548F2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F67EDA71EDE089900548F2A /* Main.storyboard */; };
 		3F67EDAB1EDE089900548F2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F67EDAA1EDE089900548F2A /* Assets.xcassets */; };
 		3F67EDAE1EDE089900548F2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F67EDAC1EDE089900548F2A /* LaunchScreen.storyboard */; };
+		3F67EDB61EDF504500548F2A /* BlackBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F67EDB51EDF504500548F2A /* BlackBox.png */; };
+		3F67EDB81EDF504F00548F2A /* Bluebox.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F67EDB71EDF504F00548F2A /* Bluebox.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3F67EDAA1EDE089900548F2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F67EDAD1EDE089900548F2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F67EDAF1EDE089900548F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F67EDB51EDF504500548F2A /* BlackBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BlackBox.png; path = ../../BlackBox.png; sourceTree = "<group>"; };
+		3F67EDB71EDF504F00548F2A /* Bluebox.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Bluebox.jpeg; path = ../../Bluebox.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				3F67EDA31EDE089900548F2A /* AppDelegate.swift */,
 				3F67EDA51EDE089900548F2A /* ViewController.swift */,
 				3F67EDA71EDE089900548F2A /* Main.storyboard */,
+				3F67EDB71EDF504F00548F2A /* Bluebox.jpeg */,
+				3F67EDB51EDF504500548F2A /* BlackBox.png */,
 				3F67EDAA1EDE089900548F2A /* Assets.xcassets */,
 				3F67EDAC1EDE089900548F2A /* LaunchScreen.storyboard */,
 				3F67EDAF1EDE089900548F2A /* Info.plist */,
@@ -124,8 +130,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F67EDAE1EDE089900548F2A /* LaunchScreen.storyboard in Resources */,
+				3F67EDB61EDF504500548F2A /* BlackBox.png in Resources */,
 				3F67EDAB1EDE089900548F2A /* Assets.xcassets in Resources */,
 				3F67EDA91EDE089900548F2A /* Main.storyboard in Resources */,
+				3F67EDB81EDF504F00548F2A /* Bluebox.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
