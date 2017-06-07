@@ -15,6 +15,7 @@
 		3F67EDB61EDF504500548F2A /* BlackBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F67EDB51EDF504500548F2A /* BlackBox.png */; };
 		3F67EDB81EDF504F00548F2A /* Bluebox.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F67EDB71EDF504F00548F2A /* Bluebox.jpeg */; };
 		3F67EDED1EE7374C00548F2A /* viewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F67EDEC1EE7374C00548F2A /* viewController2.swift */; };
+		3F67EDEF1EE75E4900548F2A /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F67EDEE1EE75E4900548F2A /* Class.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3F67EDB51EDF504500548F2A /* BlackBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BlackBox.png; path = ../../BlackBox.png; sourceTree = "<group>"; };
 		3F67EDB71EDF504F00548F2A /* Bluebox.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Bluebox.jpeg; path = ../../Bluebox.jpeg; sourceTree = "<group>"; };
 		3F67EDEC1EE7374C00548F2A /* viewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewController2.swift; sourceTree = "<group>"; };
+		3F67EDEE1EE75E4900548F2A /* Class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				3F67EDA31EDE089900548F2A /* AppDelegate.swift */,
 				3F67EDA51EDE089900548F2A /* ViewController.swift */,
 				3F67EDA71EDE089900548F2A /* Main.storyboard */,
+				3F67EDEE1EE75E4900548F2A /* Class.swift */,
 				3F67EDEC1EE7374C00548F2A /* viewController2.swift */,
 				3F67EDB71EDF504F00548F2A /* Bluebox.jpeg */,
 				3F67EDB51EDF504500548F2A /* BlackBox.png */,
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F67EDEF1EE75E4900548F2A /* Class.swift in Sources */,
 				3F67EDA61EDE089900548F2A /* ViewController.swift in Sources */,
 				3F67EDA41EDE089900548F2A /* AppDelegate.swift in Sources */,
 				3F67EDED1EE7374C00548F2A /* viewController2.swift in Sources */,
